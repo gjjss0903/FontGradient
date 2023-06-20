@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.heading {
+  font-size: 8em;
+  text-transform: uppercase;
+  margin: 0;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+  /* -webkit- 크롬브라우저 */
+  /* -moz- 파이어폭스 */
+}
